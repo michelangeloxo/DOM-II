@@ -1,6 +1,6 @@
 // Your code goes here
 
-let buttonredirect = document.querySelectorAll('.content-pick .destination .btn'); 
+const buttonredirect = document.querySelectorAll('.content-pick .destination .btn'); 
 
 
 buttonredirect[0].addEventListener("dblclick", function(){
@@ -16,7 +16,17 @@ buttonredirect[2].addEventListener('dblclick', function(){
     document.location.href = 'http://www.google.com';
 });
 
+const FunBus = document.querySelector('.logo-heading');
 
+FunBus.addEventListener('mouseover', (event)=>{
+    FunBus.style.transition="3s";
+    FunBus.style.fontSize = "9rem";
+});
+
+FunBus.addEventListener('mouseout', (event)=>{
+    FunBus.style.transition="3s";
+    FunBus.style.fontSize = "5rem";
+});
 
 
 
