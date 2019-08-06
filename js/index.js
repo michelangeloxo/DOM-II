@@ -4,16 +4,16 @@ const buttonredirect = document.querySelectorAll('.content-pick .destination .bt
 
 
 buttonredirect[0].addEventListener("dblclick", function(){
-    document.location.href = 'https://github.com/michelangeloxo';  
+    document.location.href = 'https://www.youtube.com/watch?v=-8VDQzaldFs';  
 
 });
 
 buttonredirect[1].addEventListener("dblclick", function(){
-    document.location.href = 'http://www.unsplash.com';
+    document.location.href = 'https://mountainexcursion.is/';
 });
 
 buttonredirect[2].addEventListener('dblclick', function(){
-    document.location.href = 'http://www.google.com';
+    document.location.href = 'https://www.youtube.com/watch?v=-zBAabCosQI';
 });
 
 const FunBus = document.querySelector('.logo-heading');
