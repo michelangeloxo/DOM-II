@@ -1,7 +1,16 @@
 // Your code goes here
-let img_focus = document.querySelectorAll('img');
 
-img_focus.addEventListener('focusin', (event) => {
-    event.target.style.background = 'blue';    
-  });
+let buttoncolor = document.querySelectorAll('.content-pick .destination .btn'); 
+
+buttoncolor[0].addEventListener("click", function(){
+    document.location.href = 'http://www.google.com';
+});
+
+
+
+
+
+
+
+
 
