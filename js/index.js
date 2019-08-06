@@ -105,10 +105,17 @@ const anchors = document.querySelectorAll('a');
 
 anchors.forEach(function(item,index,array){
     item.addEventListener("click", (event)=>{
-        // console.log('clicked', index);
+        
         event.preventDefault();
     });
 });
+
+const bodycolor = document.querySelector('body');
+
+bodycolor.addEventListener('keypress', (event)=>{
+   
+    bodycolor.style.backgroundColor = 'slateblue'; 
+})
 
 
 
