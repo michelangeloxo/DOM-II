@@ -126,9 +126,29 @@ const scrollbar = document.querySelector('.content-destination');
 
 scrollbar.style.overflow = 'scroll';
 scrollbar.style.height = '100px'; 
-scrollbar.addEventListener('scroll');
+scrollbar.addEventListener('scroll', (event)=>{
+    scrollbar.style.backgroundColor = 'lightcyan';
+});
 
 
+
+const newImg = document.querySelector('.img-content img');
+
+  newImg.addEventListener('mouseover', (event) => {
+    TweenMax.to(newImg, 1, {
+      scale: 1.3,
+      filter: 'none',
+      ease: Elastic.easeOut.config( 1, 0.75)
+    });
+  })
+
+  newImg.addEventListener('mouseleave', (event) => {
+    TweenMax.to(newImg, 0.5, {
+      scale: 1,
+      filter: 'grayscale(1) blur(3px)',
+      ease: Power1.easeIn
+    })
+  })
 
 
 
