@@ -90,6 +90,25 @@ copyPar4.addEventListener('copy', (event) => {
 
 }); 
 
+const nav = document.querySelector('nav');
+nav.addEventListener('mouseenter',(event)=>{
+    nav.style.transition="1s";
+    nav.style.backgroundColor = "aquamarine";
+});
+
+nav.addEventListener('mouseleave',(event)=>{
+    nav.style.transition="15s";
+    nav.style.backgroundColor = "white";
+});
+
+const anchors = document.querySelectorAll('a');
+
+anchors.forEach(function(item,index,array){
+    item.addEventListener("click", (event)=>{
+        // console.log('clicked', index);
+        event.preventDefault();
+    });
+});
 
 
 
