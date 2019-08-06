@@ -117,7 +117,11 @@ bodycolor.addEventListener('keypress', (event)=>{
     bodycolor.style.backgroundColor = 'lightcyan'; 
 });
 
-// bodycolor.addEventListener('scroll', ?)
+const scrollbar = document.querySelector('.content-destination');
+
+scrollbar.style.overflow = 'scroll';
+scrollbar.style.height = '100px'; 
+scrollbar.addEventListener('scroll');
 
 
 
