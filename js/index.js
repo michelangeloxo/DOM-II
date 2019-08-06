@@ -28,6 +28,70 @@ FunBus.addEventListener('mouseout', (event)=>{
     FunBus.style.fontSize = "5rem";
 });
 
+const copyPar = document.querySelector('.intro p')
+
+copyPar.addEventListener('copy', (event) => {
+    
+    alert("You copied text!");
+
+}); 
+
+const copyPar2 = document.querySelectorAll('.content-pick .destination p'); 
+
+copyPar2[0].addEventListener('copy', (event) => {
+    
+    alert("You copied text!");
+
+}); 
+
+copyPar2[1].addEventListener('copy', (event) => {
+    
+    alert("You copied text again!");
+
+}); 
+
+copyPar2[2].addEventListener('copy', (event) => {
+    
+    alert("You copied text again!");
+
+}); 
+
+const copyPar1 = document.querySelectorAll('.content-section .text-content p');
+
+copyPar1[0].addEventListener('copy', (event) => {
+    
+    alert("You copied text again!");
+
+}); 
+
+copyPar1[1].addEventListener('copy', (event) => {
+    
+    alert("You copied text again!");
+
+}); 
+
+copyPar1[2].addEventListener('copy', (event) => {
+    
+    alert("You copied text again!");
+
+}); 
+
+copyPar1[3].addEventListener('copy', (event) => {
+    
+    alert("Ummmm Copy Deez!");
+
+}); 
+
+const copyPar4 = document.querySelector('.content-destination p');
+
+copyPar4.addEventListener('copy', (event) => {
+    
+    alert("Still Copying Text?");
+
+}); 
+
+
+
 
 
 
