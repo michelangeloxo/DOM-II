@@ -114,8 +114,11 @@ const bodycolor = document.querySelector('body');
 
 bodycolor.addEventListener('keypress', (event)=>{
    
-    bodycolor.style.backgroundColor = 'slateblue'; 
-})
+    bodycolor.style.backgroundColor = 'lightcyan'; 
+});
+
+// bodycolor.addEventListener('scroll', ?)
+
 
 
 
