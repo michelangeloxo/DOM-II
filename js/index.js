@@ -117,11 +117,18 @@ bodycolor.addEventListener('keypress', (event)=>{
     bodycolor.style.backgroundColor = 'lightcyan'; 
 });
 
+window.addEventListener('load', (event)=> {
+    alert('Page is Loaded'); 
+} );
+
+
 const scrollbar = document.querySelector('.content-destination');
 
 scrollbar.style.overflow = 'scroll';
 scrollbar.style.height = '100px'; 
 scrollbar.addEventListener('scroll');
+
+
 
 
 
