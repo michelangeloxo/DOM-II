@@ -127,7 +127,7 @@ const scrollbar = document.querySelector('.content-destination');
 scrollbar.style.overflow = 'scroll';
 scrollbar.style.height = '100px'; 
 scrollbar.addEventListener('scroll', (event)=>{
-    scrollbar.style.backgroundColor = 'lightcyan';
+    scrollbar.style.backgroundColor = 'aquamarine';
 });
 
 
