@@ -78,7 +78,7 @@ copyPar1[2].addEventListener('copy', (event) => {
 
 copyPar1[3].addEventListener('copy', (event) => {
     
-    alert("Ummmm Copy Deez!");
+    alert("You copied text again!");
 
 }); 
 
